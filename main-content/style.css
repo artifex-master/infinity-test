@@ -1,5 +1,21 @@
+/* Код для подключения шрифта в /css/stylename.css */
+@font-face { 
+  font-family: "MullerBold";
+  src: url("./fonts/MullerBold.woff") format("woff");
+  font-style: normal;
+  font-weight: 700;
+}
+
+@font-face { 
+  font-family: "MullerRegular";
+  src: url("./fonts/MullerRegular.woff") format("woff");
+  font-style: normal;
+  font-weight: 400;
+}
 
 .services {
+  font-family: 'MullerRegular', sans-serif;
+  font-size: 18px;
   width: 100%;
   height: 5600px;
   background: #E5E5E5;
@@ -9,13 +25,21 @@
   overflow: hidden;
 }
 
+.services__inner {
+  position: relative;
+}
+
+.container {
+  width: 86.9%;
+  margin: 0 auto;
+}
+
 .mobile-line {
   position: absolute;
   top: 243px;
-  left: -146px;
+  left: -100px;
   transform: rotate(0.39deg);
-
-
+  z-index: 1;
 }
 
 .lamp-wrap {
@@ -24,7 +48,81 @@
   justify-content: center;
 }
 
+.top-spot {
+  position: absolute;
+  left: calc(50% - 5px);
+  top: 200px;
+}
 
+.spot { z-index: 10; }
+
+.txt-block-main {
+  width: 100%;
+
+
+
+}
+
+.txt-block-main__title {
+  font-family: "MullerBold", sans-serif; 
+  font-weight: 700;
+  font-size: 50px;
+  margin-top: 68px;
+  line-height: 95px;
+  font-style: normal;
+  color: #3B3F43;
+
+
+}
+
+
+.txt-block-main__content {
+  width: 100%;
+  line-height: 24px;
+  color: #3B3F43;
+  font-style: normal;
+}
+
+
+.txt-block-main__content-top {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  margin-bottom: 29px;
+}
+
+.mobile-hor-line {
+  width: 100%;
+  margin-bottom: 39px;
+}
+
+.txt-block-main__content-bottom {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.ship-wrap {
+  position: absolute;
+  right: -32px;
+  top: 1041px;
+  z-index: 10;
+}
+
+.china-flag-wrap {
+  position: absolute;
+  top: 1110px;
+  left: 99px;
+  z-index: 10;
+}
+
+.second-spot {
+  position: absolute;
+  top: 1250px;
+  left: 0;
+
+
+}
 
 
 

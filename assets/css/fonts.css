@@ -1,15 +1,15 @@
 @font-face {
-  font-family: 'MullerReg', sans-serif;
+  font-family: 'Muller-400', sans-serif;
   src: url('./assets/fonts/MullerRegular.ttf');
 }
 
 @font-face {
-  font-family: 'MullerMed';
+  font-family: 'Muller-600';
   src: url('./assets/fonts/MullerMedium.ttf');
 }
 
 @font-face {
-  font-family: 'MullerBold';
+  font-family: 'Muller-800';
   src: url('./assets/fonts/MullerBold.ttf');
 }
 
