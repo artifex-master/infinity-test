@@ -1,0 +1,872 @@
+@media only screen and (max-width: 1680px) {
+  html {
+    font-size: 16px;
+  }
+
+  .btn {
+    font-size: 16px;
+  }
+
+  .hero__title {
+    font-size: 88px;
+  }
+
+  .hero__subtitle {
+    font-size: 16px;
+  }
+
+
+
+  .services__txt p {
+    width: 54%;
+  }
+ 
+
+  .services__inner {
+    position: relative;
+    margin-left: 0;
+    padding-left: 100px;
+  }
+
+  .txt-bottom {
+    margin-bottom: 230px;
+  }
+
+  .services__txt p {
+    width: 439px;
+  }
+
+  .services-lamp img {
+    width: 219px;
+    height: 319px;
+  }
+
+  .services-lamp {
+    position: absolute;
+    top: 247px;
+    left: 790px;
+  }
+
+  .services__ship img {
+    width: 541px;
+    height: 481px;
+  }
+
+  .services__group-745 img {
+    width: 686px;
+    height: 302px;
+  }
+
+  .services__group-746 img {
+    width: 313px;
+    height: 313px;
+  }
+
+  .china-flag img {
+    width: 56px;
+    height: 109px;
+  }
+
+}
+
+@media only screen and (max-width: 1440px) {
+  html {
+    font-size: 14px;
+  }
+
+  .btn {
+    font-size: 14px;
+  }
+
+  header { 
+    padding-block: 11px;
+  }
+
+  .hero__title {
+    font-size: 75px;
+  }
+
+  .hero__subtitle {
+    font-size: 14px;
+  }
+
+  .txt-bottom {
+    margin-bottom: 200px;
+  }
+
+  .services__inner {
+    position: relative;
+    margin-left: 0;
+    padding-left: 40px;
+  }
+
+  .services__txt p {
+    width: 500px;
+  }
+
+  .services-lamp img {
+    width: 188px;
+    height: 273px;
+  }
+
+  .services__ship img {
+    width: 463px;
+    height: 413px;
+  }
+
+  .services__group-745 img {
+    width: 588px;
+    height: 256px;
+  }
+
+  .services__group-746 img {
+    width: 269px;
+    height: 269px;
+  }
+
+  .services-line {
+    position: absolute;
+    top: 591px;
+    left: -65px;
+  }
+
+  .services-spot-1 {
+    position: absolute;
+    top: 551px;
+    left: 827px;
+  }
+
+  .services-lamp {
+    position: absolute;
+    top: 228px;
+    left: 739px;
+  }
+
+  .china-flag {
+    top: 707px;
+  }
+
+  .services-spot-2 {
+    top: 849px;
+  }
+
+  .services__ship {
+    position: absolute;
+    left: 560px;
+    top: 837px;
+  }
+
+  .services-spot-3 {
+    left: 626px;
+  }
+
+  .services__txt-block-three {
+    position: absolute;
+    width: max-content;
+    top: 1578px;
+    left: 720px;
+  }
+
+  .services__group-746 {
+    left: 550px;
+  }
+
+  .services__txt-block-two {
+    margin-bottom: 800px;
+  }
+
+  .services-spot-4 {
+    position: absolute;
+    top: 1943px;
+    left: -40px;
+  }
+
+
+}
+
+@media only screen and (max-width: 1280px) {
+  html {
+    font-size: 12px;
+  }
+
+  .btn {
+    font-size: 12px;
+  }
+
+  header { 
+    padding-block: 9px;
+  }
+
+  .desktop-nav {
+    padding-top: 0;
+  }
+
+  .desktop-nav li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .hero__title {
+    font-size: 66px;
+  }
+
+  .services__txt p {
+    width: 74%;
+  }
+
+  .services__txt-block-three {
+    width: 0;
+  }
+
+  .block-four__subtitle p {
+    width: 380px;
+  }
+
+  .block-three__subtitle p {
+    width: 380px;
+  }
+
+  .services__txt p {
+    width: 335px;
+  }
+  
+  .services-lamp img {
+    width: 167px;
+    height: 243px;
+  }
+
+  .services__ship img {
+    width: 412px;
+    height: 367px;
+  }
+
+  .services__group-745 img {
+    width: 523px;
+    height: 230px;
+  }
+
+  .services__group-746 img {
+    width: 239px;
+    height: 239px;
+  }
+
+  .services__txt p {
+    width: 500px;
+  }
+
+  .services__txt-block-three {
+    width: 470px;
+  }
+
+  .block-four__subtitle p {
+    width: 380px;
+  }
+
+  .services-line {
+    position: absolute;
+    top: 611px;
+    left: -197px;
+  }
+  
+  .services-lamp {
+    left: 612px;
+  }
+
+  .services-spot-1 {
+    left: 689px;
+  }
+
+  .services-spot-2 {
+    top: 792px;
+  }
+
+  .txt-bottom {
+    margin-bottom: 178px;
+  }
+  
+  .china-flag {
+    top: 737px;
+  }
+
+  .services__group-745 {
+    top: 1480px;
+    left: -77px;
+  }
+  
+  .services-spot-3 {
+    left: 494px;
+  }
+
+  .services__txt-block-three {
+    left: 588px;
+  }
+
+  .services-spot-4 {
+    top: 1752px;
+  }
+
+  .services__txt-block-two {
+    margin-bottom: 696px;
+  }
+
+  .services__ship {
+    left: 447px;
+    top: 956px;
+  }
+
+  .services__group-698 {
+    top: 2065px;
+    left: -154px;
+  }
+
+}
+
+
+@media only screen and (max-width: 1176px) {
+  .mobile-line {
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 248px;
+  }
+
+  .services-line { display: none; }
+
+  .services__inner {
+    margin-top: 90px;
+    padding-top: 313px;
+  }
+
+  .services__title {
+    font-size: 68px;
+    margin-bottom: 25px;
+
+  }
+
+  .mobile-line {
+    left: -76px;
+  }
+
+  .services-spot-1 {
+    left: 230px;
+    top: 209px;
+  }
+
+  .services-lamp {
+    left: 157px;
+    top: -85px;
+  }
+
+  .china-flag img {
+    width: 64px;
+    height: 125px;
+  }
+
+  .china-flag {
+    top: 1079px;
+    left: 393px;
+
+  }
+
+  .txt-bottom {
+    margin-bottom: 340px;
+  }
+
+  .services__ship {
+    left: 500px;
+  }
+
+  .services-spot-2 {
+    top: 1310px;
+    left: -17px;
+  }
+
+  .services__txt-block-three {
+    left: 38px;
+    top: 1994px;
+  }
+
+  .services-spot-3 {
+    top: 1888px;
+    left: 10px;
+  }
+
+  .services__txt-block-two {
+    margin-bottom: 1026px;
+  }
+
+  .services__group-746 {
+    top: 2275px;
+    left: 137px;
+  }
+
+  .services__group-698 {
+    top: 2384px;
+    left: -29px;
+  }
+
+  .services__group-698 img {
+    width: 166px;
+    height: 150px;
+  }
+
+  .services-spot-4 {
+    top: 2566px;
+    left: 30px;
+  }
+
+  .services__group-745 {
+    top: 1677px;
+    left: 82px;
+  }
+
+}
+
+
+/** Mobile Design **/
+@media only screen and (max-width: 1024px) {
+  .desktop-phone-btn-group { display: none; }
+  .desktop-nav { display: none; }
+  .container {
+    width: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+  }
+
+  .hero-container { width: 100%; }
+
+  .top { 
+    padding-block-start: 0;
+  }
+
+  header {
+    width: 142px;
+    height: 60px;
+    padding-left: 32px;
+    padding-right: 32px;
+    padding-top: 60px;
+    padding-bottom: 0;
+    border-radius: 0 0 28px 28px;
+  }
+
+  .logo {
+    position: absolute;
+    bottom: 14px;
+    left: 34%;
+  }
+
+  .logo img {
+    width: 70px;
+    height: 44px;
+  }
+
+  .mobile-menu {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .phone-icon {
+    display: block;
+  }
+
+  .container {
+    position: relative;
+    z-index: 110;
+  }
+
+  .hero__title {
+    font-size: 53px;
+    line-height: 80px;
+  }
+
+  .hero__subtitle p {
+    width: 60%;
+  }
+
+  .hero__bottom {
+    justify-content: center;
+    flex-direction: column;
+    gap: 64px;
+  }
+
+  .hero__bottom-img { display: none; }
+
+  .hero__bottom-line-images {
+    width: 100%;
+    justify-content: center;
+    display: flex;
+    gap: 57px;
+  }
+
+  .services__txt p {
+    width: 268px;
+  }
+
+
+  .services-lamp img {
+    width: 133px;
+    height: 194px;
+  }
+
+  .services__ship img {
+    width: 330px;
+    height: 293px;
+  }
+
+  .services__group-745 img {
+    width: 418px;
+    height: 184px;
+  }
+
+  .services__group-746 img {
+    width: 191px;
+    height: 191px;
+  }
+
+  .services__txt p {
+    width: 500px;
+  }
+
+  .block-two__subtitle p, .block-three__subtitle p, .block-four__subtitle p {
+    width: 400px;
+  }
+
+  .services__ship {
+    top: 1124px;
+    left: 368px;
+  }
+
+  
+
+
+
+}
+
+@media only screen and (max-width: 900px) {
+  .services .container { width: 100%; }
+  .services__inner { width: 100%; overflow-y: hidden; overflow-x: visible;}
+
+  .services-lamp {
+    top: -40px;
+    left: 173px;
+  }
+
+  .services-spot-2 {
+    top: 1264px;
+    left: 77px;
+  }
+}
+
+
+@media only screen and (max-width: 600px) {
+  .form { flex-direction: column; }
+
+  .services__txt p {
+    width: 420px;
+  }
+
+  .services__ship {
+    top: 1177px;
+    left: 219px;
+  }
+
+  .china-flag {
+    top: 1120px;
+    left: 248px;
+  }
+
+  .services__group-745 img {
+    width: 284px;
+    height: 143px;
+  }
+
+  .services__group-745 {
+    top: 1754px;
+  }
+
+  .services__txt-block-two {
+    margin-bottom: 921px;
+  }
+
+  .mobile-line {
+    top: 268px;
+    left: -175px;
+  }
+
+  .separator img { width: 80%; }
+
+  .services-spot-1 {top: 243px; left: 129px;}
+
+  .services-lamp {
+    top: 6px;
+    left: 76px;
+  }
+
+  .services-spot-2 {
+    top: 1267px;
+    left: 43px;
+  }
+
+  .services__ship {
+    right: 0;
+  }
+
+  .services__ship img {
+    width: 267px;
+    height: 232px;
+  }
+
+  .services-spot-3 {
+    top: 1920px;
+  }
+}
+
+
+
+
+
+
+@media only screen and (max-width: 468px) {
+  header {
+    width: 111px;
+    height: 40px;
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+
+  .logo img {
+    width: 55px;
+    height: 34px;
+  }
+
+  .mobile-menu {
+    gap: 8px;
+  }
+
+  .mobile-menu-line {
+    width: 33px;
+    height: 3px;
+  }
+
+  .phone-icon img {
+    width: 27px;
+    height: 30px;
+  }
+
+  .hero__title {
+    font-size: 36px;
+    line-height: 52px;
+    margin-bottom: 42px;
+
+  }
+
+  .hero__subtitle p {
+    width: 80%;
+  }
+
+  .hero { width: 100%; padding-block-start: 148px; position: relative; z-index: 60;}
+
+
+  .ship { display: block; width: 100%; display: flex; justify-content: center; }
+
+  .services__txt p {
+    width: 122px;
+  }
+  
+  .services__ship img {
+    width: 217px;
+    height: 204px;
+  }
+
+  .services__group-745 img {
+    width: 191px;
+    height: 84px;
+  }
+
+  .services__group-746 img {
+    width: 87px;
+    height: 87px;
+  }
+
+  .services__txt p {
+    width: 90%;
+  }
+
+  .txt-bottom {
+    margin-bottom: 220px;
+  }
+
+  .services__title {
+    font-size: 48px;
+    margin-bottom: 0;
+  }
+
+  .mobile-line {
+    top: 289px;
+  }
+
+  .china-flag {
+    top: 1150px;
+    left: 194px;
+  }
+
+  .services__ship {
+    left: 240px;
+  }
+
+  .china-flag {
+    top: 1215px;
+  }
+
+  .china-flag img {
+    width: 47px;
+    height: 90px;
+  }
+
+}
+
+@media only screen and (max-width: 428px) {
+  header {
+    width: 101px;
+    height: 30px;
+    padding-left: 23px;
+    padding-right: 23px;
+  }
+
+  .logo img {
+    width: 50px;
+    height: 31px;
+  }  
+
+  .mobile-menu-line {
+    width: 30px;
+    height: 2px;
+  }
+  
+  .phone-icon img {
+    width: 25px;
+    height: 27px;
+  }
+
+  .hero__title {
+    font-size: 36px;
+    line-height: 52px;
+
+  }
+
+
+  .mobile-line {
+    top: 310px;
+  }
+
+  .services-spot-1 {
+    top: 268px;
+  }
+
+  .services-lamp {
+    top: 30px;
+  }
+
+  .services-spot-2 {
+    top: 1305px;
+    left: 13px;
+  }
+
+  .china-flag {
+    top: 1181px;
+    left: 162px;
+  }
+
+  .services__group-745 img {
+    width: 335px;
+    height: 190px;
+  }
+
+  .services__group-745 {
+    top: 1712px;
+    left: 40px;
+  }
+
+  .services__txt-block-three {
+    top: 2056px;
+  }
+
+  .services-spot-3 {
+    top: 1984px;
+  }
+
+  .services__group-746 img {
+    width: 185px;
+    height: 171px;
+  }
+  .services__group-746 {
+    top: 2295px;
+  }
+
+  .services__txt-block-two {
+    margin-bottom: 1052px;
+  }
+
+  .services-spot-4 {
+    top: 2613px;
+  }
+  
+}
+
+@media only screen and (max-width: 360px) {
+  header {
+    width: 85px;
+    height: 20px;
+    padding-left: 19px;
+    padding-right: 19px;
+  }
+
+  .logo img {
+    width: 46px;
+    height: 30px;
+  } 
+  
+  .phone-icon img {
+    width: 21px;
+    height: 23px;
+  }
+
+  .mobile-menu-line {
+    width: 25px;
+    height: 2px;
+  }
+
+  .hero__title {
+    font-size: 32px;
+    line-height: 40px;
+
+  }
+
+  .mobile-line {
+    left: -162px;
+  }
+
+  .services__inner {
+    margin-top: 0;
+    padding-left: 30px;
+  }
+
+  .services__txt p {
+    width: 100%;
+  }
+
+  .services__ship {
+    top: 1206px;
+    left: 143px;
+  }
+  .china-flag {
+    top: 
+  }
+}  
+
+@media only screen and (max-width: 320px) {
+  
+}  

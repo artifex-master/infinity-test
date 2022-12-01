@@ -1,0 +1,30 @@
+
+.services {
+  width: 100%;
+  height: 5600px;
+  background: #E5E5E5;
+  position: relative;
+  padding-block-start: 23px;
+  padding-block-end: 43px;
+  overflow: hidden;
+}
+
+.mobile-line {
+  position: absolute;
+  top: 243px;
+  left: -146px;
+  transform: rotate(0.39deg);
+
+
+}
+
+.lamp-wrap {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+
+
+
+

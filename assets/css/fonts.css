@@ -1,0 +1,24 @@
+@font-face {
+  font-family: 'MullerReg', sans-serif;
+  src: url('./assets/fonts/MullerRegular.ttf');
+}
+
+@font-face {
+  font-family: 'MullerMed';
+  src: url('./assets/fonts/MullerMedium.ttf');
+}
+
+@font-face {
+  font-family: 'MullerBold';
+  src: url('./assets/fonts/MullerBold.ttf');
+}
+
+@font-face {
+  font-family: 'MullerBlack';
+  src: url('./assets/fonts/MullerBlack.ttf');
+}
+
+@font-face {
+  font-family: 'MullerLight';
+  src: url('./assets/fonts/MullerLight.ttf');
+}
