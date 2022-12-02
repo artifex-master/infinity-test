@@ -27,6 +27,7 @@ html {
   padding-block-start: 23px;
   padding-block-end: 43px;
   overflow: hidden;
+  line-height: 24px;
 }
 
 .services__inner {
@@ -82,7 +83,6 @@ html {
 
 .txt-block-main__content {
   width: 100%;
-  line-height: 24px;
   color: #3B3F43;
   font-style: normal;
 }
@@ -124,13 +124,7 @@ html {
   position: absolute;
   top: 1250px;
   left: 0;
-
-
 }
-
-
-
-
 
 .txt-block-second {
   position: absolute;
@@ -153,8 +147,6 @@ html {
 .txt-block-second__content {
   font-family: "MullerRegular", sans-serif;
   font-weight: 400;
-  font-size: 18px;
-  line-height: 24px;
   color: #000;
   font-style: normal;
   display: flex;
@@ -196,8 +188,6 @@ html {
 .txt-block-third__content {
   font-family: "MullerRegular", sans-serif;
   font-weight: 400;
-  font-size: 18px;
-  line-height: 24px;
   color: #000;
   font-style: normal;
   display: flex;
@@ -230,6 +220,12 @@ html {
 
 .third-spot {
   position: absolute;
+  top: 1905px;
+  left: 0;
+}
+
+.fourth-spot {
+  position: absolute;
   top: 2540px;
   left: 0;
 }
@@ -254,10 +250,385 @@ html {
 .txt-block-fourth__content {
   font-family: "MullerRegular", sans-serif;
   font-weight: 400;
-  font-size: 18px;
-  line-height: 24px;
   color: #000;
   font-style: normal;
 }
 
+.plane { display: none; }
+
+
+@media only screen and (min-width: 730px) {
+  .container { width: 50%; }
+  .ship-wrap { top: 1148px; right: -127px; }
+
+}
+
+
+@media only screen and (min-width: 660px) {
+  .mobile-line {
+    top: 244px;
+    left: -12px;
+  }  
+
+  .txt-block-main__title {
+    font-size: 60px;
+    margin-top: 68px;
+    line-height: 115px;
+  }
+
+  .services {
+    font-size: 22px;
+    line-height: 29px;
+  }
+
+  .txt-block-second__title, .txt-block-third__title, .txt-block-fourth__title {
+    font-size: 34px;
+    line-height: 40px;
+    margin-bottom: 27px;
+  }
+  
+  .txt-block-second {
+    top: 1376px;
+  }
+
+  .plane {
+    display: block;
+    position: absolute;
+    z-index: 10;
+    top: 1744px;
+    left: 184px;
+  }
+
+  .plane img {
+    width: 177px;
+    height: 150px;
+  }
+
+  .img-745-wrap {
+    display: none;
+  }
+  
+  .second-spot {
+    top: 1310px;
+  }
+
+  .china-flag-wrap {
+    top: 1160px;
+    left: 109px;
+  }
+
+  .ship-wrap {
+    top: 1027px;
+    right: -50px;
+  }
+
+  .third-spot {
+    top: 1893px;
+    left: 69px;
+  }
+
+  .img-698-wrap {
+    left: -43px;
+  }
+
+  .img-10379-wrap {
+    right: -44px;
+  }
+
+  .fourth-spot {
+    left: 73px;
+  }
+
+  .txt-block-second__title, .txt-block-third__title {
+    width: 60%;
+  }
+  .txt-block-fourth__title {
+    width: 80%;
+  }
+}
+
+
+@media only screen and (min-width: 556px) {
+  .mobile-line {
+    top: 283px;
+    left: 134px;
+  } 
+
+  .top-spot {
+    position: absolute;
+    left: calc(50% - 5px);
+    top: 233px;
+  }
+
+  .txt-block-main__title {
+    font-size: 60px;
+    margin-top: 68px;
+    line-height: 115px;
+  }
+
+  .services {
+    font-size: 22px;
+    line-height: 29px;
+  }
+
+  .txt-block-second__title, .txt-block-third__title, .txt-block-fourth__title {
+    font-size: 34px;
+    line-height: 40px;
+    margin-bottom: 27px;
+  }
+
+  .txt-block-second {
+    top: 1380;
+  }
+
+  .second-spot {
+    top: 1314px;
+  }
+
+  .china-flag-wrap {
+    top: 1195px;
+  }
+  
+  .ship-wrap {
+    top: 1137px;
+    right: -236px;
+  }
+
+  .img-745-wrap {
+    top: 1671px;
+    left: 24px;
+  }
+
+
+  .img-745-wrap img {
+    width: 398px;
+    height: 167px;
+  }
+
+  .third-spot {
+    top: 1860px;
+    left: -33px;
+  }
+
+  .img-698-wrap {
+    left: -230px;
+  }
+
+  .img-10379-wrap {
+    right: -230px;
+  }
+
+  .fourth-spot {
+    top: 2535px;
+    left: 42px;
+  }
+
+}
+
+
+@media only screen and (max-width: 428px) {
+  .mobile-line {
+    left: -155px;
+  } 
+
+  .second-spot {
+    top: 1229px;
+  }
+
+  .china-flag-wrap {
+    top: 1093px;
+  }
+
+  .img-745-wrap  {
+    top: 1649px;
+    left: -48px;
+  }
+
+  .img-745-wrap img {
+    width: 448px;
+    height: 197px;
+  }
+
+  .img-746-wrap img {
+    width: 194px;
+    height: 194px;
+  }
+
+  .fourth-spot {
+    top: 2531px;
+    left: -14px;
+  }
+
+}
+
+@media only screen and (max-width: 417px) {
+  .mobile-line {
+    top: 273px;
+    left: -163px;
+  }
+
+  .txt-block-main__title {
+    font-size: 45px;
+    line-height: 86px;
+  }
+
+  .services {
+    font-size: 16px;
+  }
+
+  .txt-block-second__title, .txt-block-third__title, .txt-block-fourth__title {
+    font-size: 25px;
+    line-height: 33px;
+    margin-bottom: 22px;
+  }
+
+  .lamp-wrap {
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 90px;
+  }
+
+  .top-spot {
+    position: absolute;
+    left: calc(50% - 30px);
+    top: 226px;
+  }
+
+  .second-spot {
+    top: 1256px;
+  }
+
+  .china-flag-wrap {
+    top: 1124px;
+  }
+
+  .ship-wrap {
+    top: 1069px;
+  }
+
+  .img-745-wrap {
+    position: absolute;
+    z-index: 10;
+    top: 1615px;
+    left: -31px;
+  }
+
+  .img-745-wrap {
+    top: 1678px;
+  }
+
+  .img-745-wrap img {
+    width: 418px;
+    height: 167px;
+  }
+
+  .txt-block-third {
+    top: 1990px;
+  }
+
+  .third-spot {
+    top: 1938px;
+  }
+
+  .img-746-wrap img {
+    width: 172px;
+    height: 172px;
+  }
+
+  .img-group-wrap {
+    top: 2307px;
+  }
+
+  .img-698-wrap img {
+    height: 103px;
+    width: 95px;
+  }
+
+  .img-10379-wrap {
+    top: 10px;
+  }
+
+  .img-10379-wrap img {
+    width: 69px;
+    height: 95px;
+  }
+
+  .txt-block-fourth {
+    top: 2613px;
+  }
+
+  .fourth-spot {
+    top: 2563px;
+    left: -19px;
+  }
+
+
+}
+
+@media only screen and (max-width: 360px) {
+  .mobile-line {
+    top: 242px;
+  }
+
+  .lamp-wrap {
+    padding-left: 88px;
+  }
+
+  .top-spot {
+    left: calc(50% - 5px);
+    top: 202px;
+  }
+
+  .spot img {
+    width: 35px;
+    height: 25px;
+  }
+
+  .second-spot {
+    top: 1237px;
+  }
+
+  .china-flag-wrap img {
+    width: 50px;
+    height: 98px;
+  }
+
+  .ship-wrap img {
+    width: 161px;
+    height: 161px;
+  }
+
+  .txt-block-second {
+    top: 1280px;
+  }
+
+  .img-745-wrap {
+    top: 1659px;
+  }
+
+  .img-745-wrap img {
+    width: 365px;
+    height: 154px;
+  }
+  
+  .third-spot {
+    top: 1908px;
+  }
+
+  .txt-block-third {
+    top: 1954px;
+  }
+
+  .img-group-wrap {
+    top: 2250px;
+  }
+
+  .fourth-spot {
+    top: 2534px;
+  }
+
+  .txt-block-fourth {
+    top: 2578px;
+  }
+}
 
